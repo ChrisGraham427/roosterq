@@ -1,11 +1,18 @@
-import "./App.css";
-
+import Header from "./components/Header";
+import Social from "./components/Social";
+import About from "./components/About";
+import Schedule from "./components/Schedule";
+import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>ROOSTERQ</h1>
-      </header>
+    <div className="mainbody">
+      <Header />
+      <About />
+      <Gallery />
+      <Schedule />
+      <Contact />
+      <Social />
     </div>
   );
 }
