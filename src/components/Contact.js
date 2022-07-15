@@ -1,9 +1,9 @@
 export default function Contact() {
   return (
-    <div>
-      <p>EMAIL</p>
-      <p>EMAIL</p>
-      <p>EMAIL</p>
+    <div className="contact">
+      <p>email@roosterq.ca</p>
+      <p>613-227-4905</p>
+      <p>Pakenham, ON</p>
     </div>
   );
 }

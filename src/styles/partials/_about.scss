@@ -4,4 +4,11 @@
     justify-content: center;
     flex-direction: column;
     margin: 0;
+    &__description{
+        padding: 0 .35rem 0 .35rem;
+    }
+    &__title {
+        margin: 0;
+        padding-top: 1rem;
+    }
 }
